@@ -1,5 +1,4 @@
-
-let generarComprobantes = document.getElementById("btn_gen_cmp")
-generarComprobantes.click()
-
-let valor1 = parseInt(localStorage.getItem('iterador'));
+if (window.location.href.includes('menu_ppal')) {
+    let generarComprobantes = document.getElementById("btn_gen_cmp")
+    generarComprobantes.click()
+}

@@ -1,15 +1,14 @@
-
-window.scrollTo(0, document.body.scrollHeight);
-ajaxFunction()
-let btnMenuPrinvipalVolver = document.querySelectorAll('input')
-let valor1 = parseInt(localStorage.getItem('iterador'));
-
 if (window.location.href.includes('genComResumenDatos')) {
-    localStorage.setItem("iterador", valor1 + 1);
-}
+    window.scrollTo(0, document.body.scrollHeight);
+    ajaxFunction()
+    let btnMenuPrinvipalVolver = document.querySelectorAll('input')
+    let iterador = parseInt(localStorage.getItem('iterador'));
 
-setTimeout(function () {
-    btnMenuPrinvipalVolver[3].click()
-}, 500);
+    localStorage.setItem("iterador", iterador + 1);
+
+    setTimeout(function () {
+        btnMenuPrinvipalVolver[3].click()
+    }, 500);
+}
 
 
