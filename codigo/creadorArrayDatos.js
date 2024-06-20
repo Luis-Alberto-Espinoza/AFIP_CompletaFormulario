@@ -1,6 +1,6 @@
 let anio = "2024"
 let mesEnCurso = "05";
-let arrayIngresado = [
+let montoFactura = [
     
     5000,
 3500,
@@ -40,14 +40,14 @@ let arrayIngresado = [
 
 ]
 
-datosOriginales(arrayIngresado)
-p01_subDividirFacturas(arrayIngresado)
+datosOriginales(montoFactura)
+p01_subDividirFacturas(montoFactura)
 
-function p01_subDividirFacturas(arrayIngresado) {
+function p01_subDividirFacturas(montoFactura) {
     let arrayFinal = "";
 
-    for (let i = 0; i < arrayIngresado.length; i++) {
-        let provisorio = arrayIngresado[i];
+    for (let i = 0; i < montoFactura.length; i++) {
+        let provisorio = montoFactura[i];
         let cantfacturas = Math.ceil(provisorio / 78600);
         if (cantfacturas > 15)
             console.log(`\n!!!!!! hay registros que cuentan con \n mas de 15 facturas!!!!!!\n`)
@@ -148,9 +148,9 @@ function probar(arrayResultado) {
     console.log("Fin test");
 }
 
-function datosOriginales(arrayIngresado) {
-    console.log("la cantidad de datos Originales ingresados es " + arrayIngresado.length)
-    let suma = arrayIngresado.reduce((total, valor) => total + valor, 0);
+function datosOriginales(montoFactura) {
+    console.log("la cantidad de datos Originales ingresados es " + montoFactura.length)
+    let suma = montoFactura.reduce((total, valor) => total + valor, 0);
     console.log("La suma original es:", suma);
 }
 

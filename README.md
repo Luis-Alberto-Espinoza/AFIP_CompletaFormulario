@@ -46,6 +46,21 @@ En el scripts - archivo llamado `Crear-Formatear_Datos.js`. La función de este 
 
 Después de la ejecución de este último script, será dirigido al menú principal. Si existen más facturas por realizar en el `arrayDatos`, deberá repetir la secuencia descrita anteriormente.
 
+
+## Armado de Array de Datos
+El archivo "CreadorArrayDatos.js" es el encargado de crear el array necesario para que todo funcione correctamente. este script necesita de los siguientes datos: 
+```javascript
+let anio = "2024"
+let mesEnCurso = "05";
+
+let montoFactura = [
+155000,
+253500,
+156000,
+//otros montos de facturas
+];
+```
+En el 
 ### Sugerencias adicionales:
 
 - **Pruebas:** Antes de ejecutar los scripts en un entorno de producción, pruebe en un entorno de prueba o en datos de prueba para asegurarse de que todo funcione correctamente.
