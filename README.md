@@ -60,7 +60,7 @@ let montoFactura = [
 //otros montos de facturas
 ];
 ```
-En el 
+
 ### Sugerencias adicionales:
 
 - **Pruebas:** Antes de ejecutar los scripts en un entorno de producción, pruebe en un entorno de prueba o en datos de prueba para asegurarse de que todo funcione correctamente.
