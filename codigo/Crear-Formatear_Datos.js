@@ -1,8 +1,8 @@
 
 let arrayDatos = [
     ["1/05/2024", 5000],
-    ["2/05/2024", 10000],
     // otros elementos...
+    ["20/05/2024", 10000],
 ];
 
 // Convertir el array a una cadena JSON y guardarlo en el localStorage
