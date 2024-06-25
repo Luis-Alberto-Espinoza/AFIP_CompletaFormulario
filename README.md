@@ -15,7 +15,7 @@ Tener en cuenta que esta solucion trabaja con los monto de la factura que no exc
 
 ### Requisitos
 
-Es necesario tener un arreglo con el formato `["fecha", monto]` . Es muy importante mantener el formato para que los futuros bloques de codigos puedan utilizar los datos para el llenado de los distintos formularios. 
+Es necesario tener un arreglo con el formato `["fecha", monto]` ver apartado [Armado de Array de Datos](#armado-de-array-de-datos) . Es muy importante mantener el formato para que los futuros bloques de codigos puedan utilizar los datos para el llenado de los distintos formularios. 
 Como se muestra la fecha esta envuelta entre comillas. el monto no debe llevar puntos ni comas, y ambos deben estar entre braquet seguido con una coma. 
 
 ```js
@@ -48,16 +48,20 @@ Después de la ejecución de este último script, será dirigido al menú princi
 
 
 ## Armado de Array de Datos
-El archivo "CreadorArrayDatos.js" es el encargado de crear el array necesario para que todo funcione correctamente. este script necesita de los siguientes datos: 
-```javascript
-let anio = "2024"
-let mesEnCurso = "05";
+Este script aborda la necesidad de dividir grandes montos de facturas para evitar la obligación de ingresar datos del receptor. Pegue el script en la consola del navegador, ajuste los datos y obtendrá el array necesario para `Crear-Formatear_Datos.js`.
 
-let montoFactura = [
-155000,
-253500,
-156000,
-//otros montos de facturas
+```javascript
+const configuracion = {
+    montoMaximo: 95812, //este valor lo estipula la entidad 
+    anio: "2024",
+    mesEnCurso: "05"
+};
+
+let montoFactura = [ // tener en cuenta que la cantidad de datos ingresados no supere a la cantidad de dias del mes en curso 
+    958813, 86001, 89600, 86530, 85360, 87560, 84520, 89853,
+    85420, 84052, 86391, 99891, 46281, 71381, 68341, 12501,
+//otros montos totales diarios de facturas 
+    56801, 96381, 84281
 ];
 ```
 
