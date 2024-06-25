@@ -48,7 +48,7 @@ Después de la ejecución de este último script, será dirigido al menú princi
 
 
 ## Armado de Array de Datos
-Este script aborda la necesidad de dividir grandes montos de facturas para evitar la obligación de ingresar datos del receptor. Pegue el script en la consola del navegador, ajuste los datos y obtendrá el array necesario para `Crear-Formatear_Datos.js`.
+Este script aborda la necesidad de dividir grandes montos de facturas para evitar la obligación de ingresar datos del receptor. Pegue el script en la consola del navegador, ajuste los datos Con los montos totales diarios y obtendrá el array con el formato necesario para utilizarlo en el script `Crear-Formatear_Datos.js`.
 
 ```javascript
 const configuracion = {
