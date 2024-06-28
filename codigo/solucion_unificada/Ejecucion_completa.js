@@ -1,4 +1,15 @@
-//leer variables de seteo 
+// ==UserScript==
+// @name         New facturas
+// @namespace    http://tampermonkey.net/
+// @version      2024-06-25
+// @description  automatiza la generacion de facturas!
+// @author       luis
+// @match        https://fe.afip.gob.ar/rcel/jsp/menu_ppal.jsp
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
 const datosDeEmision = localStorage.getItem('datosDeEmision');
 const datosDeOperacion = localStorage.getItem('datosDeOperacion');
 let arrayDatos = JSON.parse(localStorage.getItem('arrayDatos'));   
@@ -177,3 +188,5 @@ if (window.location.href.includes('genComResumenDatos')) {
             console.error(error);
         });
 }
+
+})();
