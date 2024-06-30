@@ -6,6 +6,7 @@ let arrayDatos = [
 ];
 
 //descomentar segun se requiera 
+
 let datosDeEmision = 'producto';
 //let datosDeEmision = 'servicio';
 

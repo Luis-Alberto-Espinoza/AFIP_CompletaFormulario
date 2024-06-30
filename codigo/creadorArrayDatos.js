@@ -9,6 +9,9 @@ let montoFactura = [
     85420, 84052, 86391, 99891, 46281, 71381, 68341, 12501,
     56801, 96381, 84281
 ];
+
+
+
 let suma = montoFactura.reduce((total, monto) => total + monto, 0);
 let resultadoFacturas = [];
 let arrayFacturasGeneradas = [];
