@@ -6,7 +6,7 @@ Este proyecto, desarrollado en JavaScript, está diseñado para automatizar el l
 
 ---
 
-### Descripción de la solución
+## Descripción de la solución
 
 Dado un listado de montos totales por dia y la tipificacion necesaria generar la facturacion correspondiente. La solución consiste en pequeños bloques de código que unidos pueden lograr la automatizacion de dicha tarea, teniendo en cuenta que de ser necesario se subdividiran el monto total de un dia en varias facturas. Dichos bloques de código pueden ejecutarse de las siguientes maneras:
 - En la consola del navegador.
@@ -54,7 +54,7 @@ Para ejecutar este código, sigue estos pasos en tu navegador preferido:
 
 ---
 
-**Siguiente paso: Actualizar y ejecutar el script para guardar datos**
+## **Siguiente paso: Actualizar y ejecutar el script para guardar datos**
 
 1. **Abrir el archivo 'Crear-Formatear_Datos.js' y configurar los datos iniciales**: 
    - Abre el archivo 'Crear-Formatear_Datos.js'.
@@ -98,9 +98,9 @@ let datosDeOperacion = 'Factura_C';
 2. **Iniciar en el sistema RCEL:** Una vez dentro del sistema "RCEL", se mostrará el siguiente menú:
     ![menu inicio](./imagenes/inicio.png)
 
-Dos maneras propuestas y explicadas para continuar 
+## Dos maneras propuestas y explicadas para continuar 
 
-**Utilizando la consola del navegador para autocompletar formularios**
+## **1_ Utilizando la consola del navegador para autocompletar formularios**
 
 1. **Preparar el script 'ConsolaNavegador.js'**: Asegúrate de tener listo el script 'ConsolaNavegador.js', el cual contiene las funciones para rellenar los formularios automáticamente.
 
@@ -113,7 +113,7 @@ Dos maneras propuestas y explicadas para continuar
 
 ---
 
-**Configuración de Tampermonkey para la ejecución automática de formularios**
+## **2_ Configuración de Tampermonkey para la ejecución automática de formularios**
 
 1. **Instalar Tampermonkey**: Desde la tienda de extensiones de su navegador, instala Tampermonkey, disponible en la mayoría de los navegadores.
 
@@ -122,6 +122,7 @@ Dos maneras propuestas y explicadas para continuar
    - Copia el contenido del script "Tampermonkey.js" y pégalo en el editor, reemplazando cualquier código preexistente.
 
 ![menu inicio](./imagenes/tampermonkey_00.png)
+
 ![menu inicio](./imagenes/tampermonkey_02.png)
 
 
@@ -137,6 +138,7 @@ Dos maneras propuestas y explicadas para continuar
    - Configura las opciones según se muestra en las imágenes: asegúrate de que esté seleccionado y activado.
 
 ![menu inicio](./imagenes/tampermonkey_04.png)
+
 ![menu inicio](./imagenes/tampermonkey_05.png)
 
 
@@ -150,7 +152,7 @@ Dos maneras propuestas y explicadas para continuar
 
 ---
 
-**Sugerencias adicionales para pruebas antes de ejecutar en producción:**
+## **Sugerencias adicionales para pruebas antes de ejecutar en producción:**
 
 Antes de ejecutar los scripts en un entorno de producción, se recomienda realizar pruebas en un entorno de prueba para garantizar el funcionamiento correcto. Aquí hay dos sugerencias para realizar pruebas de manera segura:
 
