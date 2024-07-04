@@ -1,7 +1,7 @@
 const configuracion = {
     montoMaximo: 95812,
     anio: "2024",
-    mesEnCurso: "05"
+    mesEnCurso: "06"
 };
 
 let montoFactura = [

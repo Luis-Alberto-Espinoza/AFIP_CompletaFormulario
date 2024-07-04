@@ -131,7 +131,7 @@
     }
 
     //paso4_DatosDeOperacion-Factura_B
-    if (window.location.href.includes('genComDatosOperacion' && datosDeOperacion === 'Factura_B')) {
+    if (window.location.href.includes('genComDatosOperacion') && datosDeOperacion === 'Factura_B') {
 
         esperarElementoEnDOM("#detalle_medida1")
             .then((elemento) => {
