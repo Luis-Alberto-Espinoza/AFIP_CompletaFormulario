@@ -1,5 +1,5 @@
 const configuracion = {
-    montoMaximo: 95812,
+    montoMaximo: 172244,
     anio: "2024",
     mesEnCurso: "06"
 };
