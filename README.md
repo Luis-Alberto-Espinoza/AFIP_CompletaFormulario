@@ -126,12 +126,21 @@ let datosDeOperacion = 'Factura_C';
 ![menu inicio](./imagenes/tampermonkey_02.png)
 
 
-3. **Configurar la inclusión del script**:
-   - Guarda el script. Ve a la pestaña "Configuración" y luego a "Incluye".
-   - Ingresa el siguiente patrón en el campo de inclusión y haz clic en el botón de guardado:
+3. ** Zolapa de Configuración**:
+   -  Ve a la pestaña "Configuración".
+   - En la parte superior conviene quitar el check a la seccion de General.
+
+![menu inicio](./imagenes/tampermonkey_05_b.png)
+
+
+   - Luego ve a "Incluye" Ingresa el siguiente patrón en el campo de inclusión y haz clic en el botón de guardado:
      ```sh
-     http://*/RCEL*
+     https://fe.afip.gob.ar/rcel/jsp/*
      ```
+
+![menu inicio](./imagenes/tampermonkey_05_c.png)
+
+
 
 4. **Activar el script**:
    - En la lista de scripts, asegúrate de que el script esté marcado como activo.
