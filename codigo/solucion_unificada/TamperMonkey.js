@@ -119,8 +119,17 @@
             .then((elemento) => {
                 let formu = document.getElementById('formulario')
                 formu[0].value = 5
-                formu[7].checked = true
-                formu[15].checked = true
+
+                // Crear y disparar el evento 'input'
+                let eventoInput = new Event('input', { bubbles: true, cancelable: true });
+                formu[0].dispatchEvent(eventoInput);
+
+                // Crear y disparar el evento 'change'
+                let eventoChange = new Event('change', { bubbles: true, cancelable: true });
+                formu[0].dispatchEvent(eventoChange);
+
+                //formu[7].checked = true
+                formu[16].checked = true
                 setTimeout(function () {
                     validarCampos()
                 }, 500);
@@ -188,5 +197,4 @@
                 console.error(error);
             });
     }
-
 })();
