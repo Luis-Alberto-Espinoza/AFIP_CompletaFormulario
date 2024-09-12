@@ -1,6 +1,6 @@
 ventas diarias globlales
 
-# AFIP_CompletaFormulario
+# AFIP_CompletaFormulario para Faturas del tipo B y C
 
 Este proyecto, desarrollado en JavaScript, está diseñado para automatizar el llenado de diversos formularios con el objetivo de generar facturas electrónicas tanto de tipo "B" o "C" como si es del tipo "Producto" o "Servicio". Se optó por esta implementación debido a un comunicado emitido por la misma entidad advirtiendo el uso de frameworks como Selenium u otros para la automatización del llenado de formularios, castigando con posibles sanciones.
 
